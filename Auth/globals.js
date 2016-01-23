@@ -87,7 +87,7 @@ function validarUser(lnk_user, lnk_pass){
  * @properties={typeid:24,uuid:"508E7761-1F6D-46FA-9EAB-45ED53297A81"}
  */
 function getUserId(user){
-	/** @type {JSFoundset<db:/peluqueria/adn_usuarios>}*/
+	/** @type {JSFoundSet<db:/peluqueria/adn_usuarios>} */
 	var fs_users = databaseManager.getFoundSet('peluqueria','adn_usuarios')
 	fs_users.find()
 	fs_users.user_nombre = user
