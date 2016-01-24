@@ -81,7 +81,7 @@ function validarUser(lnk_user, lnk_pass){
 /**
  * @AllowToRunInFind
  * 
- * TODO generated, please specify type and doc for the params
+ * 
  * @param user
  *
  * @properties={typeid:24,uuid:"508E7761-1F6D-46FA-9EAB-45ED53297A81"}
